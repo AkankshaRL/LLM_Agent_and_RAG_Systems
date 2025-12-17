@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain.schema.runnable import RunnableParallel
+from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from dotenv import load_dotenv
 
 load_dotenv()
