@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatGoogleGenerativeAI(model = "gemini-2.5-flash")
+model = ChatGoogleGenerativeAI(model = "gemini-2.5-flash-lite")
 
 prompt1 = PromptTemplate(
     template="Generate short and simple notes from the following text\n{text}",
