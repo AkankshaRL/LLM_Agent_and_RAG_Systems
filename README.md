@@ -115,7 +115,7 @@ This is essential for **production-grade agents**.
 
 This is the **systems integration layer**, where everything comes together.
 
-### What’s Coveredj
+### What’s Covered
 - Agent–Client Protocol (ACP)
 - Agent-to-Agent (A2A) communication
 - Streaming agent responses
@@ -196,5 +196,6 @@ pip install -r requirements.txt
 
 ## Final Note
 This repository is not about showing *what LLMs can do*.
+
 
 It is about showing **how to design, control, and ship AI systems that don’t break in production**.
